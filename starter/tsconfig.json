@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    "noEmit": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "strict": false,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {},
+    "skipLibCheck": true,
+    "typeRoots": ["../node_modules/@types", "../node_modules"],
+    "types": ["jest"],
+    "esModuleInterop": true, 
+    "noImplicitAny": false 
+  },
+  "exclude": ["../node_modules"],
+  "compileOnSave": false
+}
+
